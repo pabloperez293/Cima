@@ -1,0 +1,19 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yuji Syuku', serif;
+}
+:root{
+    font-family: 18px;
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    padding: 20px;
+    border-top:1px solid grey;
+}
