@@ -4,16 +4,81 @@
     font-family: 'Yuji Syuku', serif;
 }
 :root{
-    font-family: 18px;
-
+     --bg-color: rgb(24, 23, 23);
+    --text-color: rgb(194, 204, 53);
+    font-family: 20px;
 }
 body{
     font-family: 'Lato', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
-
+p{
+    margin-bottom: 0.75rem !important;
+    line-height: 1.2rem !important;
+}
+a{
+    color: var(--text-color);    
+}
+.searchbox{
+    padding: 8px 30px;
+    background-color: var(--text-color);
+    max-width: 500px;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+.search{
+    width: 100%;
+    background-color: var(--text-color);
+    border: none;
+    font-size: 1rem;
+}
+.search:focus{
+    outline: none;
+}
+.searchForm{
+    margin: 20px 20px;
+}
+.weatherCard{
+    margin:20px 20px;
+    background: var(--text-color);
+    color: var(--bg-color);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+.city{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+.date{
+    font-size: 1.10rem;
+}
+.tempImg{
+    width: 80px;
+    margin-right: 12px;
+}
+.temperature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+.temp{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.weather{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1.2rem;
+}
 footer{
     position: fixed;
-    bottom:0;
-    padding: 20px;
-    border-top:1px solid grey;
+    bottom: 0;
+    padding: 15px 0px !important;
+    border-top: 1px solid rgb(197, 40, 40) !important;
+    width: 100%;
+    text-align: center;
 }

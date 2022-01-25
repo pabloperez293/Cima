@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,900&family=Yuji+Syuku&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,900&family=Yuji+Syuku&display=swap"
+      rel="stylesheet"
+    />
 
-
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/reset.css" />
 
     <title>Mr. Clima</title>
-</head>
-<body>
-    <main></main>
+  </head>
+  <body>
+    <main>
+      <div class="searchForm">
+        <form id="searchForm">
+          <div class="searchbox">
+            <input
+              type="text"
+              autocomplete="off"
+              placeholder="Busqueda.."
+              class="search"
+              id="searchbox"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="weatherCard">
+        <div class="city" id="city">Buenos Aires</div>
+        <div class="date" id="date">21/01/2022</div>
+        <div class="temperature">
+          <img src="img/rain.png" class="tempImg" id="temp-Img" />
+          <div class="temp" id="temp">27°C</div>
+        </div>
+        <div class="weather" id="weather">Nublado</div>
+        <div class="range" id="range">20 C // 28 C</div>
+      </div>
+    </main>
 
+    <footer>
+      <p>
+        Creado por <a href="https://pabloperez.netlify.app/">PabloPerez@</a>
+      </p>
+      <p>Derechos reservador por Warner Brossss</p>
+    </footer>
 
-<footer>
-
-</footer>
-
-
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
